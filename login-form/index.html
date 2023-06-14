@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Form </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="t-center">Connexion</h2>
+        <form action="">
+            <div class="inputDiv">
+                <label for="name" class="username">Pseudo</label>
+                <div class="userArea">
+                    <i class="fa-solid fa-user"></i><input type="text" name="name" id="name"
+                        placeholder="Entrez votre pseudo">
+                </div>
+                <hr>
+            </div>
+            <div class="inputDiv">
+                <label for="password" class="username">Mot de passe</label>
+                <div class="userArea">
+                    <i class="fa-solid fa-key"></i><input type="password" name="password" id="password"
+                        placeholder="Entrez votre mot de passe">
+                </div>
+                <hr>
+            </div>
+
+            <span class="forgotPassword">Mot de passe oublié ?</span>
+            <button class="btn">Connexion</button>
+            <div class="formBottom">
+                <p>Utilisez un profil social pour vous connecter</p>
+                <ul class="flexUl">
+                    <a href="https://www.faceboook.com" target="_blank">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                    </a>
+                    <a href="https://www.google.com" target="_blank">
+                        <li><i class="fa-brands fa-google"></i></li>
+                    </a>
+                </ul>
+                <p class="signUp">Vous n'avez pas de compte ?</p>
+                <p id="signUp">Créer un compte</p>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
